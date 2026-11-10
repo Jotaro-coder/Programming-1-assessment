@@ -434,9 +434,11 @@ namespace Assessment
             {               
                 Spin = wheel[rand.Next(wheel.Length)];
                 Console.WriteLine("Wheel spin: " + Spin);
-                Thread.Sleep(500);
+                Thread.Sleep(300);
                 Console.Clear();
+                Console.WriteLine("Wheel spin: " + "");
                 Thread.Sleep(200);
+                Console.Clear();
             }
             return Spin;
         }
