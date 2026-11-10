@@ -14,7 +14,6 @@ namespace Assessment
             public int Score;
         }
 
-        public static bool menu = true;
         public static Contestant[] contestants = new Contestant[23];
         public static int contestantCount = 0;
         public static int[] finalists = new int[10];
@@ -44,6 +43,7 @@ namespace Assessment
 
         public static void Menu()
         {
+            bool menu = true;
             while (menu)
             {
                 char choice;
@@ -59,7 +59,7 @@ namespace Assessment
                 switch (choice)
                 {
                     case '0':
-                        Exit();
+                        menu = Exit();
                         Console.Clear();
                         break;
                     case '1':
@@ -88,14 +88,21 @@ namespace Assessment
             }
         }
 
-        public static void Exit()
+        public static bool Exit()
         {
             Console.WriteLine("Are you sure you want to exit? [Y] / [Any other key to stay]");
             char choice = Console.ReadKey().KeyChar;
+            bool meenu;
             if (choice == 'y' || choice == 'Y')
             {
-                menu = false;
+                meenu = false;
             }
+            else
+            {
+                meenu = true;
+            }
+            return meenu;
+
         }
 
         // Loads contestants into an array of structs
