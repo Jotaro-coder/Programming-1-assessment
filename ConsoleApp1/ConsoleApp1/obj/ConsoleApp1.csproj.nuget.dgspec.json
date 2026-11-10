@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\AZIZS3\\OneDrive - Otago Polytechnic\\First year SEM 1\\programing1\\Assignment\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj": {}
+    "H:\\Programming-1-assessment\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\AZIZS3\\OneDrive - Otago Polytechnic\\First year SEM 1\\programing1\\Assignment\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj": {
+    "H:\\Programming-1-assessment\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\AZIZS3\\OneDrive - Otago Polytechnic\\First year SEM 1\\programing1\\Assignment\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
+        "projectUniqueName": "H:\\Programming-1-assessment\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
         "projectName": "ConsoleApp1",
-        "projectPath": "C:\\Users\\AZIZS3\\OneDrive - Otago Polytechnic\\First year SEM 1\\programing1\\Assignment\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
+        "projectPath": "H:\\Programming-1-assessment\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
         "packagesPath": "C:\\Users\\AZIZS3\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\AZIZS3\\OneDrive - Otago Polytechnic\\First year SEM 1\\programing1\\Assignment\\ConsoleApp1\\ConsoleApp1\\obj\\",
+        "outputPath": "H:\\Programming-1-assessment\\ConsoleApp1\\ConsoleApp1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

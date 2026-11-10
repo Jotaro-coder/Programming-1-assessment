@@ -246,8 +246,7 @@ namespace Assessment
                 if (contestants[i].FirstName.ToLower().Contains(search.ToLower()) || contestants[i].LastName.ToLower().Contains(search.ToLower()))
                 {
                     Console.WriteLine(
-                        (i + 1).ToString().PadRight(6) + contestants[i].FirstName.PadRight(20) + contestants[i].LastName
-                    );
+                        (i + 1).ToString().PadRight(6) + contestants[i].FirstName.PadRight(20) + contestants[i].LastName );
 
                     matchCount++;
                 }
@@ -270,15 +269,14 @@ namespace Assessment
             }
 
             int index = number - 1;
-            if (!contestants[index].FirstName.ToLower().Contains(search.ToLower()) &&
-                !contestants[index].LastName.ToLower().Contains(search.ToLower()))
+            if (!contestants[index].FirstName.ToLower().Contains(search.ToLower()) && !contestants[index].LastName.ToLower().Contains(search.ToLower()))
             {
                 Console.WriteLine("That contestant was not in your search results.");
                 Pause();
                 return;
             }
 
-            Console.Write("Enter the new interest: ");
+            Console.WriteLine("Enter the new interest: ");
             string? newInterest = Console.ReadLine();
             if (newInterest == null || newInterest.Trim() == "")
             {
