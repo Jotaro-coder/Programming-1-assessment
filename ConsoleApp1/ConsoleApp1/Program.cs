@@ -443,8 +443,7 @@ namespace Assessment
 
         public static bool IsVowel(char letter)
         {
-            return letter == 'A' || letter == 'E' || letter == 'I' ||
-                   letter == 'O' || letter == 'U';
+            return letter == 'A' || letter == 'E' || letter == 'I' || letter == 'O' || letter == 'U';
         }
 
         // Keep asking until a valid, previously unused letter is entered.
@@ -630,10 +629,12 @@ namespace Assessment
                     contestants[i].Score = 0;
                 }
                 SaveContestants();
+                Console.Clear();
                 Console.WriteLine("All scores reset and saved.");
             }
             else
             {
+                Console.Clear();
                 Console.WriteLine("Reset cancelled.");
             }
             Pause();
